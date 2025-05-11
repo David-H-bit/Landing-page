@@ -1,0 +1,151 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.firstContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+    padding-bottom: 35px;
+}
+
+.Header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 25px;
+    padding-left: 0;
+    
+}
+
+#h2HeaderFirstContainer{
+    flex: 1;
+    font-size: 2rem;
+    margin-left: 15%;
+}
+
+.links{
+    margin-left: 0%;
+    flex: 1;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    
+}
+
+.links a{
+    padding-left: 35px;
+    cursor: pointer;
+    color: gray;
+
+}
+
+.abtThisWeb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    gap: 135px;
+}
+
+#thisWeb, #frontImgPlaceholder{
+    flex: 1;
+}
+
+#thisWeb{
+    padding-left: 100px;
+    margin-left: 15px;
+    font-size: 1.5rem;
+}
+
+#frontImgPlaceholder{
+    flex-shrink: 0;
+    background-color: gray;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#thisWeb button{
+    color: white;
+    background-color: rgb(0, 162, 255);
+    border: none;
+    font-size: 1.3rem;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#thisWeb button:hover{
+    background-color: rgb(77, 190, 255);
+
+}
+
+#thisWeb button:active{
+    background-color: rgb(132, 203, 244);;
+    
+}
+
+.secondContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    padding-bottom: 35px;
+}
+
+.secondContainerImages{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+
+
+.secondContainerImg{
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(0, 162, 255);
+    border-radius: 20px;
+}
+.secondContainer p{
+    width: 150px;
+    text-align: center;
+}
+
+#h2HeaderSecondContainer{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.thirdContainer{
+    background-color: #E5E7EB;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px
+    
+}
+
+#quote{
+    font-style: italic;
+    font-size: 3rem;
+    color: #1F2937;
+    width: 80%;
+}
+
+#quoteName{
+    font-size: 3rem;
+    font-style: italic;
+    text-align: right;
+    width: 80%;
+    margin-top: -30px;
+}
