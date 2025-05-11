@@ -149,3 +149,65 @@ body{
     width: 80%;
     margin-top: -30px;
 }
+
+.fourthContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: white;
+    padding: 100px;
+}
+
+#signUpBox{
+    background-color: rgba(0, 140, 255, 0.881);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    padding: 50px;
+}
+
+#signUpText{
+    flex: 2 1 auto;
+    font-size: 1.1rem;
+}
+
+#signUpText p:first-child{
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+#signUpButton{
+    flex: 1 1 auto;
+    margin-right: 100px;
+    padding: 10px 25px 10px 25px;
+    border: solid white;
+    font-size: 1.4rem;
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#signUpButton:hover{
+    color: rgba(78, 175, 255, 0.881);
+    background-color: white;
+}
+
+#signUpButton:active{
+    color: rgba(0, 140, 255, 1);
+    background-color: white;
+}
+
+.fifthContainer{
+    background-color: #1F2937;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+}

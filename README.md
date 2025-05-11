@@ -1,1 +1,2 @@
 # Landing-page
+This is a landing page, a website structure as a css/flexbox project with some HTML. This website showcases fundamental parts of css, such as flexbox, the cascade, alignments, and so on. This page does not (yet) have any functionality whatsoever
